@@ -1,0 +1,10 @@
+{
+    "name": "maui/social-graph-api",
+    "authors": [
+        {
+            "name": "David Contavalli",
+            "email": "mauipipe@gmail.com"
+        }
+    ],
+    "require": {}
+}
