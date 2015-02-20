@@ -44,10 +44,10 @@ class GraphFactory implements FactoryInterface
 
             foreach($friends as $friendId){
                 $friendNode = $this->graph->getNode($friendId);
-                $currentNode->connectToNode($friendNode);
+                $currentNode->connectToNode($friendId,$friendNode);
             }
 
-            $this->graph->setNode($id,$currentNode);
+            $this->graph->updateNode($id,$currentNode);
         }
 
         return $this->graph;
