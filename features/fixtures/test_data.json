@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "firstName": "David",
+    "surname": "Crowe",
+    "age": 28,
+    "gender": "male",
+    "friends": [
+      2
+    ]
+  },
+  {
+    "id": 2,
+    "firstName": "Paul",
+    "surname": "Crowe",
+    "age": 28,
+    "gender": "male",
+    "friends": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 3,
+    "firstName": "Annie",
+    "surname": "Crowe",
+    "age": 28,
+    "gender": "male",
+    "friends": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": 4,
+    "firstName": "Sybil",
+    "surname": "Crowe",
+    "age": 28,
+    "gender": "male",
+    "friends": [
+      3
+    ]
+  },
+  {
+    "id": 5,
+    "firstName": "Mark",
+    "surname": "Crowe",
+    "age": 28,
+    "gender": "male",
+    "friends": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": 6,
+    "firstName": "Jesus",
+    "surname": "Crowe",
+    "age": 28,
+    "gender": "male",
+    "friends": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": 7,
+    "firstName": "Igor",
+    "surname": "Crowe",
+    "age": 28,
+    "gender": "male",
+    "friends": [
+      4
+    ]
+  }
+]

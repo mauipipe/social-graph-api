@@ -19,6 +19,10 @@ class Node
         return $this->hash;
     }
 
+    public function getMeta(){
+        return $this->meta;
+    }
+
     public function setMeta(array $meta){
         $this->meta = $meta;
     }

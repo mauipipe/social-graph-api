@@ -32,7 +32,6 @@ class Graph implements GraphInterface
         $this->nodes[$hash] = $node;
     }
 
-    
 
     public function getNeighbours($hash)
     {
