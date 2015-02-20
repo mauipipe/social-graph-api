@@ -10,7 +10,8 @@
         "php": ">=5.4"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.0"
+        "phpspec/phpspec": "~2.0",
+        "behat/behat": "2.4.*@stable"
     },
     "config": {
         "bin-dir": "bin"
