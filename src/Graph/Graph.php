@@ -23,6 +23,10 @@ class Graph implements GraphInterface
         return $this->nodes;
     }
 
+    public function getNode($hash){
+        return $this->nodes[$hash];
+    }
+
     public function updateNode($hash, Node $node)
     {
         $this->nodes[$hash] = $node;

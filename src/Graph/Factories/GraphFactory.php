@@ -44,7 +44,7 @@ class GraphFactory implements FactoryInterface
 
             foreach($friends as $friendId){
                 $friendNode = $this->graph->getNode($friendId);
-                $currentNode->addRelation($friendNode);
+                $currentNode->connectToNode($friendNode);
             }
 
             $this->graph->setNode($id,$currentNode);
