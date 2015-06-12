@@ -21,10 +21,10 @@ switch($relation){
         $methodName = "findFriends";
         break;
     case "friend-of-friend":
-        $methodName = "friendOfFriend";
+        $methodName = "findFriendOfFriend";
         break;
     case "suggested-friend":
-        $methodName = "suggested-friend";
+        $methodName = "findSuggestedFriends";
         break;
     default:
         throw new Exception(sprintf("Invalid relation %s choose between friends, friend-of-friend or suggested-friend",$relation));
